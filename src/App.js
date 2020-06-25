@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@material-ui/core'
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <br 
+        ></br>
+        <Button color="primary" variant="contained">Material UI Button</Button>
       </header>
     </div>
   );
